@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.white-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: white;
+  color: black;
+  overflow: hidden;
+}
+
+.information-bar {
+  max-height: 60px;
+  max-width: 81%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+button {
+  color: black;
+  border: none;
+  background-color: white;
+  font-size: large;
+  font-weight: 650;
+  border-radius: 15%;
+  margin: 5px 10px;
+  float: left;
+  width: 85px;
+  height: 35px;
+}
+
+.menu-bar {
+  margin-top: -13px;
+  margin-left: 640px;
+  margin-right: -130px;
+  max-width: 800px;
+}
+
+.button-tag:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+
+.bamdol {
+  height: 20px;
+  margin-top: 12px;
+  float: left;
+}
+
+
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
+
+body {
+  position: relative;
+}
+
+body::before {
+  padding-top: 50px;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 685px;
+  background-image: url("./img/class.JPG");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  filter: blur(10px) brightness(50%);
+}
+
+
+
+
+.detail {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.title {
+  text-align: center;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
