@@ -13,7 +13,9 @@ function App() {
   };
 
   return (
+    <SectionsContainer {...options}>
       <div className='web'>
+        <section>
           <div className='white-bar'>
             <div className='information-bar'>
               <img src={bamdol} className='bamdol'></img>
@@ -21,7 +23,8 @@ function App() {
             </div>
           </div>
         <Textbamdol />
-      
+        </section>
+      <section>
         <div className='introduce-bamdol'>
           <div className='draw-bamdol'>
             <h3 className='team-bamdol'>밤돌이로 팀</h3>
@@ -32,10 +35,12 @@ function App() {
               우리는 동료들과<br/>일상의 행복을 나누며<br/>추억을 쌓아요.<br/><br/>
               우리를 알리기 위한 가장 탁월한 방법은<br/>사람들이 우리의 창작물 안에서<br/>우리를 찾게 하는거예요.
               </h2>
-          </div>
+            </div>
           </div>
         </div>
+        </section>
     </div>
+    </SectionsContainer>
     
   );
 
