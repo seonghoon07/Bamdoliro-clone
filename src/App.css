@@ -65,7 +65,9 @@ img {
   overflow: clip;
 }
 
-
+.fullpage {
+  z-index: -1;
+}
 
 body {
   position: relative;

@@ -1,21 +1,25 @@
 /* eslint-disable */
-import img1 from './img/부소마.jpeg';
 import bamdol from './img/bamdol.svg';
 import React,{useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Textbamdol from './components/TextBamdol';
+import './component/Textbamdol/index.js'
+import {SectionsContainer, Section} from 'react-fullpage';
+import Textbamdol from './component/Textbamdol/index.js';
 
 function App() {
   
+  let options = {
+    anchors:['sectionOne', 'sectionTwo'], // the anchors for each sections
+  };
+
   return (
-    <div className='web'>
-        <div className='white-bar'>
-          <div className='information-bar'>
-            <img src={bamdol} className='bamdol'></img>
-            <Menubar />
+      <div className='web'>
+          <div className='white-bar'>
+            <div className='information-bar'>
+              <img src={bamdol} className='bamdol'></img>
+              <Menubar />
+            </div>
           </div>
-        </div>
         <Textbamdol />
       
         <div className='introduce-bamdol'>
