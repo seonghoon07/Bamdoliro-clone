@@ -1,0 +1,33 @@
+.draw-bamdol {
+  font-size: 33px;
+  position: relative;
+}
+
+.longtext-bamdol {
+  position: absolute;
+  font-size: 20px;
+  right: 170px;
+  top: 50px;
+}
+
+.team-bamdol {
+  color: rgb(75, 75, 75);
+  font-size: 25px;
+  margin-left: 215px;
+  position: absolute;
+  top: 180px;
+}
+
+.real-bamdol {
+  position: absolute;
+  top: 230px;
+  left: 210px;
+}
+
+.introduce-bamdol {
+  z-index: 200;
+  color: black;
+  position: relative;
+  top: 90px;
+  height: 600px;
+}

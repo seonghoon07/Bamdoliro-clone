@@ -1,0 +1,10 @@
+.menu-bar {
+  margin-top: -13px;
+  margin-left: 640px;
+  margin-right: -130px;
+  max-width: 800px;
+}
+
+.button-tag:hover {
+  background-color: rgb(241, 241, 241);
+}

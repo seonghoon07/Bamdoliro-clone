@@ -1,15 +1,15 @@
-.App {
-  text-align: center;
-}
 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.secondPage {
+  background-color: white;
+  z-index: -3;
+  height: 1000px;
+  margin-top: 17%;
 }
 
 
 .white-bar {
+  z-index: 99999;
   position: fixed;
   top: 0;
   left: 0;
@@ -40,16 +40,9 @@ button {
   height: 35px;
 }
 
-.menu-bar {
-  margin-top: -13px;
-  margin-left: 640px;
-  margin-right: -130px;
-  max-width: 800px;
-}
 
-.button-tag:hover {
-  background-color: rgb(241, 241, 241);
-}
+
+
 
 
 .bamdol {
@@ -117,38 +110,10 @@ body::before {
   display: none;
 }
 
-.introduce-bamdol {
-  z-index: -1;
-  color: black;
-  position: relative;
-  top: 300px;
-  height: 600px;
-}
 
-.team-bamdol {
-  color: rgb(75, 75, 75);
-  font-size: 25px;
-  margin-left: 215px;
-  position: absolute;
-  top: 180px;
-}
-.real-bamdol {
-  position: absolute;
-  top: 230px;
-  left: 210px;
-}
 
-.longtext-bamdol {
-  position: absolute;
-  font-size: 20px;
-  right: 170px;
-  top: 50px;
-}
 
-.draw-bamdol {
-  font-size: x-large;
-  position: relative;
-}
+
 
 .App-header {
   background-color: #282c34;
