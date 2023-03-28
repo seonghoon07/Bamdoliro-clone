@@ -1,6 +1,12 @@
 .text-bamdol {
-  padding-top: 310px;
-  padding-left: 115px;
   color: white;
-  font-size: 42px;
+  font-size: 30px;
+  position: absolute;
+}
+
+.firstPage {
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  height: 580px;
 }

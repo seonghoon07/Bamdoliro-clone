@@ -5,9 +5,9 @@
 
 .longtext-bamdol {
   position: absolute;
-  font-size: 20px;
-  right: 170px;
-  top: 50px;
+  font-size: 19px;
+  right: 190px;
+  top: 90px;
 }
 
 .team-bamdol {
@@ -15,12 +15,13 @@
   font-size: 25px;
   margin-left: 215px;
   position: absolute;
-  top: 180px;
+  top: 210px;
 }
 
 .real-bamdol {
   position: absolute;
-  top: 230px;
+  font-size: 50px;
+  top: 260px;
   left: 210px;
 }
 
@@ -29,5 +30,5 @@
   color: black;
   position: relative;
   top: 90px;
-  height: 600px;
+  height: 800px;
 }

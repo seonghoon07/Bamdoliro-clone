@@ -4,7 +4,7 @@
   background-color: white;
   z-index: -3;
   height: 1000px;
-  margin-top: 17%;
+  margin-top: 11%;
 }
 
 
@@ -27,6 +27,13 @@
   margin-top: 20px;
 }
 
+.bamdol {
+  height: 20px;
+  margin-top: 12px;
+  float: left;
+}
+
+
 button {
   color: black;
   border: none;
@@ -43,13 +50,6 @@ button {
 
 
 
-
-
-.bamdol {
-  height: 20px;
-  margin-top: 12px;
-  float: left;
-}
 
 
 
@@ -105,12 +105,6 @@ body::before {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.web::-webkit-scrollbar {
-  display: none;
-}
-
-
 
 
 

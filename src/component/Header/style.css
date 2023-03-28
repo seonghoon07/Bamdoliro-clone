@@ -1,0 +1,20 @@
+.white-bar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background: white;
+  color: black;
+}
+
+.information-bar {
+  max-height: 60px;
+  max-width: 81%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.bamdol {
+  height: 20px;
+  margin-top: 12px;
+  float: left;
+}
