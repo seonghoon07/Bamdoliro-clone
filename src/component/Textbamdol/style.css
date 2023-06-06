@@ -1,12 +1,14 @@
 .text-bamdol {
   color: white;
-  font-size: 30px;
+  font-size: 2em;
   position: absolute;
+  top: 7em;
+  left: 4em;
 }
 
 .firstPage {
   position: relative;
   display:flex;
   flex-direction: column;
-  height: 580px;
+  height: 80vh;
 }

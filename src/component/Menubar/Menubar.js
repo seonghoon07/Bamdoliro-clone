@@ -1,4 +1,4 @@
-import "./Menubar_style.css"
+import "./style.css"
 
 function Menubar(){
   return (
