@@ -15,13 +15,13 @@
   font-size: 25px;
   margin-left: 215px;
   position: absolute;
-  top: 210px;
+  top: 6em;
 }
 
 .real-bamdol {
   position: absolute;
   font-size: 50px;
-  top: 260px;
+  top: 4em;
   left: 210px;
 }
 
@@ -29,6 +29,6 @@
   z-index: 200;
   color: black;
   position: relative;
-  top: 90px;
+  top: 4em;
   height: 800px;
 }
