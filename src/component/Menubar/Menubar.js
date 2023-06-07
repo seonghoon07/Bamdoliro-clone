@@ -7,7 +7,7 @@ function Menubar(){
         <a href="/#sectionTwo">
           <button className='button-tag'>팀 소개</button>
         </a>
-        <a>
+        <a href="/#sectionThree">
           <button className='button-tag'>팀 연혁</button>
         </a>
         <a>
